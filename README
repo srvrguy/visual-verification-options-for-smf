@@ -1,0 +1,42 @@
+Visual Verification Options
+by Motoko-chan
+
+Version: 0.1
+
+
+About
+-----
+This modification adds additional options to the built-in Visual Verification
+system. It supports SMF 1.1.2.
+
+This mod was written from scratch to use existing SMF code where possible and
+integrates options into areas where they would best fit.
+
+This mod and other information can be found at:
+http://www.animeneko.net/smf/
+
+
+Features
+--------
+ - Prompt for verification on posts by guests
+ - Prompt for verification on searches by guests
+
+
+How to Use
+----------
+You can enable the verification image for posts by going to:
+Admin -> Posts and Topics -> Guests must enter visual verification code before posting
+
+You can enable the verification image for search by going to:
+Admin -> Search -> Settings -> Enable visual verification for search by guests
+
+License
+-------
+This code is licensed under the terms of the Simple Machines License. SMF code
+used in this mod is copyright Simple Machines LLC. All original code is
+copyright Michael Johnson.
+
+
+Version History
+---------------
+0.1 - Initial Release
