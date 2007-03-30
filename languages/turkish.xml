@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>motokochan:visualverificationoptions</id>
+
+	<file name="$languagedir/Modifications.turkish.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+//Visual Verification Options - Translator: husmen73
+$txt['visual_verification_guest_post'] = 'Ziyaretçiler mesaj gönderirken güvenlik kodunu girsin';
+$txt['visual_verification_guest_search'] = 'Ziyaretçiler arama yaparken güvenlik kodunu girsin';
+$txt['error_visual_verification_failed'] = 'Resimde ki güvenlik kodunda ki harfler ile sizin yazdığınız harfler ile uyuşmamaktadır. Lütfen tekrar deneyin.';
+]]></add>
+		</operation>
+	</file>
+</modification>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>motokochan:visualverificationoptions</id>
+
+	<file name="$languagedir/Modifications.japanese.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+//Visual Verification Options - Translation: Kunio-kun
+$txt['visual_verification_guest_post'] = 'ゲストの方は書き込む前にキャプチャを入力してください。';
+$txt['visual_verification_guest_search'] = 'ゲストの方でサーチなされる場合はキャプチャをオンにしてください。';
+$txt['error_visual_verification_failed'] = '入力された文字列は画像の物と異なります。';
+]]></add>
+		</operation>
+	</file>
+</modification>

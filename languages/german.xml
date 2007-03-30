@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>motokochan:visualverificationoptions</id>
+
+	<file name="$languagedir/Modifications.german.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+//Visual Verification Options - Translation: aIZe
+$txt['visual_verification_guest_post'] = 'Visuelle Bestätigung für Gäste aktivieren';
+$txt['visual_verification_guest_search'] = 'Visuelle Bestätigung für Gäste aktivieren';
+$txt['error_visual_verification_failed'] = 'Die eingegebenen Buchstaben stimmen nicht mit den im Bild gezeigten überein.';
+]]></add>
+		</operation>
+	</file>
+</modification>
