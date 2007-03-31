@@ -1,8 +1,10 @@
 Changelog:
 
 2007-03-30:
- - Added classic theme support
+ - Version 0.2
+ - Fixed mod to be valid XHTML
  - Broke out theme changes into different files
+ - Added classic theme support
 
 2007-03-26:
  - Added German, Turkish, and Japanese translations
