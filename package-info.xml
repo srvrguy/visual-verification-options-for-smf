@@ -9,6 +9,7 @@
 		<readme>README</readme>
 		<modification>install.xml</modification>
 		<modification>themes/core.xml</modification>
+		<modification>themes/classic.xml</modification>
 		<modification>languages/english.xml</modification>
 		<modification>languages/german.xml</modification>
 		<modification>languages/japanese.xml</modification>
@@ -20,6 +21,7 @@
 	<uninstall>
 		<modification reverse="true">install.xml</modification>
 		<modification reverse="true">themes/core.xml</modification>
+		<modification reverse="true">themes/classic.xml</modification>
 		<modification reverse="true">languages/english.xml</modification>
 		<modification reverse="true">languages/german.xml</modification>
 		<modification reverse="true">languages/japanese.xml</modification>
