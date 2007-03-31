@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>motokochan:visualverificationoptions</id>
+
+	<file name="$languagedir/Modifications.english.php">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+//Visual Verification Options
+$txt['visual_verification_guest_post'] = 'Guests must enter visual verification code before posting';
+$txt['visual_verification_guest_search'] = 'Enable visual verification for search by guests';
+$txt['error_visual_verification_failed'] = 'The letters you typed don\'t match the letters that were shown in the picture.';
+]]></add>
+		</operation>
+	</file>
+
+</modification>
