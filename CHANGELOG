@@ -1,5 +1,10 @@
 Changelog:
 
+2007-05-10:
+ - Version 0.3
+ - Fixed Issue #12 - Multi-page search results not working with VVO on
+ - Fixed Issue #13 - Re-search for empty search requires code
+
 2007-03-30:
  - Version 0.2
  - Fixed mod to be valid XHTML
