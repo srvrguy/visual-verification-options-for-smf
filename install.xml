@@ -134,6 +134,37 @@
 
 ]]></add>
 		</operation>
+		<operation>
+			<search position="after"><![CDATA[
+	if (!empty($search_params['maxage']) || (!empty($_REQUEST['maxage']) && $_REQUEST['maxage'] != 9999))
+		$search_params['maxage'] = !empty($search_params['maxage']) ? (int) $search_params['maxage'] : (int) $_REQUEST['maxage'];
+]]></search>
+			<add><![CDATA[
+
+	// Generate a visual verification code to make sure the user is no bot.
+	// Used if the search form is shown on the page (for when there are no results)
+	$context['visual_verification'] = (empty($modSettings['disable_visual_verification']) || $modSettings['disable_visual_verification'] != 1) && ($user_info['is_guest'] && $modSettings['visual_verification_guest_search']);
+	if ($context['visual_verification'])
+	{
+		loadLanguage('Login');
+
+		$context['use_graphic_library'] = in_array('gd', get_loaded_extensions());
+		$context['verificiation_image_href'] = $scripturl . '?action=verificationcode;rand=' . md5(rand());
+
+		// Only generate a new code if one hasn't been set yet
+		if (!isset($_SESSION['visual_verification_code']))
+		{
+			// Skip I, J, L, O and Q.
+			$character_range = array_merge(range('A', 'H'), array('K', 'M', 'N', 'P'), range('R', 'Z'));
+
+			// Generate a new code.
+			$_SESSION['visual_verification_code'] = '';
+			for ($i = 0; $i < 5; $i++)
+				$_SESSION['visual_verification_code'] .= $character_range[array_rand($character_range)];
+		}
+	}
+]]></add>
+		</operation>
 	</file>
 
 </modification>
