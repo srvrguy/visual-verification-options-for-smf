@@ -119,7 +119,8 @@
 ]]></search>
 			<add><![CDATA[
 	// Check whether the visual verification code was entered correctly.
-	if ((empty($modSettings['disable_visual_verification']) || $modSettings['disable_visual_verification'] != 1) && ($user_info['is_guest'] && $modSettings['visual_verification_guest_search']))
+	// We don't want to require it for extra pages though.
+	if ((empty($modSettings['disable_visual_verification']) || $modSettings['disable_visual_verification'] != 1) && ($user_info['is_guest'] && $modSettings['visual_verification_guest_search']) && ($_REQUEST['start'] < 2))
 	{
 		if ((empty($_REQUEST['visual_verification_code']) || strtoupper($_REQUEST['visual_verification_code']) !== $_SESSION['visual_verification_code']))
 		{
