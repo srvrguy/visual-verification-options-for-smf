@@ -1,19 +1,17 @@
 Visual Verification Options
 by Motoko-chan
 
-Version: 0.2
-
 
 About
 -----
 This modification adds additional options to the built-in Visual Verification
-system. It supports SMF 1.1.2.
+system. It supports SMF 1.1.2 and 1.1.3.
 
-This mod was written from scratch to use existing SMF code where possible and
-integrates options into areas where they would best fit.
+Visual Verification Options was written from scratch to use existing SMF code
+where possible and to integrate options into areas where they would best fit.
 
 This mod and other information can be found at:
-http://www.animeneko.net/smf/
+http://www.animeneko.net/projects/smf/
 
 
 Features
@@ -30,6 +28,7 @@ Admin -> Posts and Topics -> Guests must enter visual verification code before p
 You can enable the verification image for search by going to:
 Admin -> Search -> Settings -> Enable visual verification for search by guests
 
+
 License
 -------
 This code is licensed under the terms of the Simple Machines License. SMF code
@@ -40,3 +39,6 @@ copyright Michael Johnson.
 Version History
 ---------------
 See CHANGELOG
+
+
+Doc Revision 20070702
