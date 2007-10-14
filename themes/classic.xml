@@ -3,7 +3,7 @@
 <modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
 	<id>motokochan:visualverificationoptions</id>
 
-	<file name="$boarddir/Themes/classic/Post.template.php">
+	<file name="$boarddir/Themes/classic/Post.template.php" error="skip">
 		<operation>
 			<search position="after"><![CDATA[
 	// If the admin has enabled the hiding of the additional options - show a link and image for it.

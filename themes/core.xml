@@ -3,7 +3,7 @@
 <modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
 	<id>motokochan:visualverificationoptions</id>
 
-	<file name="$boarddir/Themes/default/Admin.template.php">
+	<file name="$themedir/Admin.template.php">
 		<operation>
 			<search position="before"><![CDATA[
 					<input type="checkbox" name="enableSpellChecking" id="enableSpellChecking_check"', empty($modSettings['enableSpellChecking']) ? '' : ' checked="checked"', ' class="check" />
@@ -21,7 +21,7 @@
 		</operation>
 	</file>
 
-	<file name="$boarddir/Themes/default/ManageSearch.template.php">
+	<file name="$themedir/ManageSearch.template.php">
 		<operation>
 			<search position="before"><![CDATA[
 				<th width="50%" align="right"><label for="simpleSearch_check">', $txt['simpleSearch'], '</label> (<a href="', $scripturl, '?action=helpadmin;help=simpleSearch" onclick="return reqWin(this.href);">?</a>):</th>
@@ -36,7 +36,7 @@
 		</operation>
 	</file>
 
-	<file name="$boarddir/Themes/default/Post.template.php">
+	<file name="$themedir/Post.template.php">
 		<operation>
 			<search position="after"><![CDATA[
 	// If the admin has enabled the hiding of the additional options - show a link and image for it.
@@ -102,7 +102,7 @@ echo '
 		</operation>
 	</file>
 
-	<file name="$boarddir/Themes/default/Search.template.php">
+	<file name="$themedir/Search.template.php">
 		<operation>
 			<search position="after"><![CDATA[
 	if ($context['simple_search'])
