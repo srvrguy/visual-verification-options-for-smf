@@ -3,7 +3,7 @@
 <package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
 	<id>motokochan:visualverificationoptions</id>
 	<name>Visual Verification Options</name>
-	<version>0.3.2</version>
+	<version>0.5</version>
 	<type>modification</type>
 	<install for="1.1.2,1.1.3,1.1.4">
 		<readme>README</readme>
@@ -15,13 +15,28 @@
 		<modification>languages/japanese.xml</modification>
 		<modification>languages/turkish.xml</modification>
 	</install>
+	<install for="2.0 Beta 2, 2.0 Beta 2.1">
+		<readme>README-20</readme>
+		<modification>install-20b2.xml</modification>
+		<modification>languages/english.xml</modification>
+		<modification>languages/german.xml</modification>
+		<modification>languages/japanese.xml</modification>
+		<modification>languages/turkish.xml</modification>
+	</install>
 	<install>
 		<readme type="inline">This package doesn't appear to support your SMF version.</readme>
 	</install>
-	<uninstall>
+	<uninstall for="1.1.2,1.1.3,1.1.4">
 		<modification reverse="true">install.xml</modification>
 		<modification reverse="true">themes/core.xml</modification>
 		<modification reverse="true">themes/classic.xml</modification>
+		<modification reverse="true">languages/english.xml</modification>
+		<modification reverse="true">languages/german.xml</modification>
+		<modification reverse="true">languages/japanese.xml</modification>
+		<modification reverse="true">languages/turkish.xml</modification>
+	</uninstall>
+	<uninstall for="2.0 Beta 2, 2.0 Beta 2.1">
+		<modification reverse="true">install-20b2.xml</modification>
 		<modification reverse="true">languages/english.xml</modification>
 		<modification reverse="true">languages/german.xml</modification>
 		<modification reverse="true">languages/japanese.xml</modification>

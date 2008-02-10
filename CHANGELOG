@@ -1,5 +1,12 @@
 Changelog:
 
+2008-02-10:
+ - Version 0.5
+ - Added support for SMF 2.0 Beta 2 and 2.0 Beta 2.1
+ - Minor language change in English for better wording (matches 2.0 wording style)
+ - Added readme specific to SMF 2.0
+ - Added British English selections and UTF-8 editions of all languages
+
 2007-10-13:
  - Version 0.3.2
  - Updated XML files to install on SMF 1.1.4

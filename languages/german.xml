@@ -14,4 +14,16 @@ $txt['error_visual_verification_failed'] = 'Die eingegebenen Buchstaben stimmen 
 ]]></add>
 		</operation>
 	</file>
+
+	<file name="$languagedir/Modifications.german-utf8.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+//Visual Verification Options - Translation: aIZe
+$txt['visual_verification_guest_post'] = 'Visuelle Bestätigung für Gäste aktivieren';
+$txt['visual_verification_guest_search'] = 'Visuelle Bestätigung für Gäste aktivieren';
+$txt['error_visual_verification_failed'] = 'Die eingegebenen Buchstaben stimmen nicht mit den im Bild gezeigten überein.';
+]]></add>
+		</operation>
+	</file>
 </modification>

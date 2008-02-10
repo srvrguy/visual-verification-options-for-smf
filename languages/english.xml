@@ -8,7 +8,43 @@
 			<search position="end"></search>
 			<add><![CDATA[
 //Visual Verification Options
-$txt['visual_verification_guest_post'] = 'Guests must enter visual verification code before posting';
+$txt['visual_verification_guest_post'] = 'Require image verification on all guest posts';
+$txt['visual_verification_guest_search'] = 'Enable visual verification for search by guests';
+$txt['error_visual_verification_failed'] = 'The letters you typed don\'t match the letters that were shown in the picture.';
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$languagedir/Modifications.english-utf8.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+//Visual Verification Options
+$txt['visual_verification_guest_post'] = 'Require image verification on all guest posts';
+$txt['visual_verification_guest_search'] = 'Enable visual verification for search by guests';
+$txt['error_visual_verification_failed'] = 'The letters you typed don\'t match the letters that were shown in the picture.';
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$languagedir/Modifications.english_british.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+//Visual Verification Options
+$txt['visual_verification_guest_post'] = 'Require image verification on all guest posts';
+$txt['visual_verification_guest_search'] = 'Enable visual verification for search by guests';
+$txt['error_visual_verification_failed'] = 'The letters you typed don\'t match the letters that were shown in the picture.';
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$languagedir/Modifications.english_british-utf8.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+//Visual Verification Options
+$txt['visual_verification_guest_post'] = 'Require image verification on all guest posts';
 $txt['visual_verification_guest_search'] = 'Enable visual verification for search by guests';
 $txt['error_visual_verification_failed'] = 'The letters you typed don\'t match the letters that were shown in the picture.';
 ]]></add>

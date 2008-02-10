@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>motokochan:visualverificationoptions</id>
+	<name>Visual Verification Options</name>
+
+	<file name="$sourcedir/ManagePosts.php">
+		<operation>
+			<search position="before"><![CDATA[
+			array('check', 'disable_wysiwyg'),
+]]></search>
+			<add><![CDATA[
+			array('check', 'visual_verification_guest_post'),
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$sourcedir/Post.php">
+		<operation>
+			<search position="before"><![CDATA[
+	// Do we need to show the visual verification image?
+	$context['visual_verification'] = !$user_info['is_mod'] && !$user_info['is_admin'] && !empty($modSettings['posts_require_captcha']) && $user_info['posts'] < $modSettings['posts_require_captcha'];
+]]></search>
+			<add><![CDATA[
+    if ($user_info['is_guest'] && !empty($modSettings['visual_verification_guest_post'])) $context['visual_verification'] = TRUE;
+]]></add>
+		</operation>
+	</file>
+
+</modification>

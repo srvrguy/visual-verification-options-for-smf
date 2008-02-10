@@ -14,4 +14,16 @@ $txt['error_visual_verification_failed'] = '入力された文字列は画像の
 ]]></add>
 		</operation>
 	</file>
+
+	<file name="$languagedir/Modifications.japanese-utf8.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+//Visual Verification Options - Translation: Kunio-kun
+$txt['visual_verification_guest_post'] = 'ゲストの方は書き込む前にキャプチャを入力してください。';
+$txt['visual_verification_guest_search'] = 'ゲストの方でサーチなされる場合はキャプチャをオンにしてください。';
+$txt['error_visual_verification_failed'] = '入力された文字列は画像の物と異なります。';
+]]></add>
+		</operation>
+	</file>
 </modification>
