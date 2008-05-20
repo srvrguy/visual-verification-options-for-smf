@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="45b8a23d-b13e-47d0-a50b-1c059af252cf" kpf_version="4" name="smf-visualverificationoptions.kpf">
+<preference-set idref="45b8a23d-b13e-47d0-a50b-1c059af252cf">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+</project>
