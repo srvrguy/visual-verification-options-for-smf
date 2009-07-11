@@ -12,6 +12,7 @@
 		<modification>themes/classic.xml</modification>
 		<modification>languages/english.xml</modification>
 		<modification>languages/german.xml</modification>
+		<modification>languages/arabic.xml</modification>
 		<modification>languages/japanese.xml</modification>
 		<modification>languages/turkish.xml</modification>
 	</install>
@@ -19,6 +20,7 @@
 		<readme>README-20</readme>
 		<modification>install-20b2.xml</modification>
 		<modification>languages/english.xml</modification>
+		<modification>languages/arabic.xml</modification>
 		<modification>languages/german.xml</modification>
 		<modification>languages/japanese.xml</modification>
 		<modification>languages/turkish.xml</modification>
@@ -31,6 +33,7 @@
 		<modification reverse="true">themes/core.xml</modification>
 		<modification reverse="true">themes/classic.xml</modification>
 		<modification reverse="true">languages/english.xml</modification>
+		<modification reverse="true">languages/arabic.xml</modification>
 		<modification reverse="true">languages/german.xml</modification>
 		<modification reverse="true">languages/japanese.xml</modification>
 		<modification reverse="true">languages/turkish.xml</modification>
@@ -38,6 +41,7 @@
 	<uninstall for="2.0 Beta 2, 2.0 Beta 2.1">
 		<modification reverse="true">install-20b2.xml</modification>
 		<modification reverse="true">languages/english.xml</modification>
+		<modification reverse="true">languages/arabic.xml</modification>
 		<modification reverse="true">languages/german.xml</modification>
 		<modification reverse="true">languages/japanese.xml</modification>
 		<modification reverse="true">languages/turkish.xml</modification>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>motokochan:visualverificationoptions</id>
+
+	<file name="$languagedir/Modifications.arabic.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+//Visual Verification Options (Translation courtesy islam2hamy)
+$txt['visual_verification_guest_post'] = 'ÊÝÛíá ÇáÊÍÞÞ ÇáÈÕÑì ÚäÏ ßÊÇÈÊ ÑÏ ãä ÞÈá ÇáÒæÇÑ';
+$txt['visual_verification_guest_search'] = 'ÊÝÚíá ÇáÊÍÞÞ ÇáÈÕÑì Ýì ÎÇÕíÉ ÇáÈÍË ááÒæÇÑ';
+$txt['error_visual_verification_failed'] = 'ÇáÇÍÑÝ ÇáÊì ßÊÈÊåÇ áÇ ÊØÇÈÞ ÇáÃÍÑÝ ÇáãæÌæÏÉ ÈÇáÕæÑÉ.';
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$languagedir/Modifications.arabic-utf8.php" error="skip">
+		<operation>
+			<search position="end"></search>
+			<add><![CDATA[
+//Visual Verification Options (Translation courtesy islam2hamy)
+$txt['visual_verification_guest_post'] = 'تفغيل التحقق البصرى عند كتابت رد من قبل الزوار';
+$txt['visual_verification_guest_search'] = 'تفعيل التحقق البصرى فى خاصية البحث للزوار';
+$txt['error_visual_verification_failed'] = 'الاحرف التى كتبتها لا تطابق الأحرف الموجودة بالصورة.';]]></add>
+		</operation>
+	</file>
+</modification>
