@@ -1,6 +1,5 @@
 Visual Verification Options
-by Motoko-chan
-
+===========================
 
 About
 -----
@@ -12,7 +11,6 @@ where possible and to integrate options into areas where they would best fit.
 
 This mod and other information can be found at:
 http://www.animeneko.net/projects/smf/
-
 
 Features
 --------
@@ -31,14 +29,7 @@ Admin -> Search -> Settings -> Enable visual verification for search by guests
 
 License
 -------
-This code is licensed under the terms of the Simple Machines License. SMF code
-used in this mod is copyright Simple Machines LLC. All original code is
-copyright Michael Johnson.
+Portions of code from Simple Machines Forum are under the Simple
+Machines License (SMF 1.0 and 1.1) and are copyright Simple Machines.
 
-
-Version History
----------------
-See CHANGELOG
-
-
-Doc Revision 20070702
+All original work is licensed under the 2-clause BSD license.

@@ -1,8 +1,7 @@
 Visual Verification Options
-by Motoko-chan
+===========================
 
-***README FOR SMF 2.0***
-
+**README FOR SMF 2.0**
 
 About
 -----
@@ -29,14 +28,7 @@ Admin -> Posts and Topics -> Require image verification on all guest posts
 
 License
 -------
-This code is licensed under the terms of the Simple Machines License. SMF code
-used in this mod is copyright Simple Machines LLC. All original code is
-copyright Michael Johnson.
+Portions of code from Simple Machines Forum are under the Simple
+Machines License (SMF 1.0 and 1.1) and are copyright Simple Machines.
 
-
-Version History
----------------
-See CHANGELOG
-
-
-Doc Revision 20080210
+All original work is licensed under the 2-clause BSD license.
